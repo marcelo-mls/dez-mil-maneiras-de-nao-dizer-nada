@@ -2,6 +2,7 @@
   "name": "fale-tudo-diga-nada",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://marcelo-mls.github.io/dez-mil-maneiras-de-nao-dizer-nada/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -18,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:styles": "npx stylelint '**/*.css'",
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +44,7 @@
     "eslint": "^7.32.0",
     "eslint-config-trybe-frontend": "1.2.3",
     "eslint-plugin-sonarjs": "^0.13.0",
+    "gh-pages": "^4.0.0",
     "stylelint": "13.8.0",
     "stylelint-order": "4.1.0"
   }
