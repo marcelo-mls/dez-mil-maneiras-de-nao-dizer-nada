@@ -12,7 +12,7 @@
 <br />
 
 #### Demonstração da Aplicação / Application Demo:
- ![image](https://cdn-icons-png.flaticon.com/128/2914/2914192.png)
+ ![image](./src/assets/demo-gif.gif)
 
 <br />
 
