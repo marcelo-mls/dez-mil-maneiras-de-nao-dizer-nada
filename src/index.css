@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --warm-color: #DB9406;
+  --cold-color: #091520;
+}
+
+/* ----------------------------------------- RESET CSS ----------------------------------------- */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, button, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, header, label, legend, main,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +64,96 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.epic-button {
+  background-color: inherit;
+}
+
+.epic-button:hover {
+  cursor: pointer;
+}
+
+.epic-title {
+ color: white;
+ font-size: 1.5em;
+ font-weight: 500;
+}
+
+.epic-subtitle {
+  color: var(--warm-color);
+  font-size: 1em;
+}
+
+.epic-main {
+  width: '100vw';
+  padding: 24px 48px 48px 48px;
+  /* 091520 */
+  background: linear-gradient(rgba(23, 55, 83, 0.7), rgba(0, 0, 0, 0.5)), url('./assets/company-image.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.epic-phrase {
+  font-family: 'Merriweather', 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 1.6em;
+  color: white;
+  line-height: 2;
+  margin: 24px 48px;
+  height: 160px;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.epic-phrase::before {
+  content: url(./assets/quotes-svg.svg);
+  display: block;
+  text-align: left;
+  line-height: 0.1;
+}
+
+.epic-phrase::before:hover {
+  display: none;
+}
+
+.epic-cell {
+  width: 15vw;
+  height: 7vh;
+  font-size: 0.9em;
+  padding: 4px;
+  color: var(--cold-color);
+  background-color: rgba(255,255, 255, 0.6);
+  font-weight: 500;
+}
+
+.epic-cell:hover {
+  background-color: rgba(8, 21, 32, 0.6);
+  color: var(--warm-color);
+  cursor: pointer;
+}
+
+.epic-radio {
+  display: none;
+}
+
+.epic-radio:checked + td {
+  background-color: rgba(8, 21, 32, 0.9);
+  color: var(--warm-color);
+}
+
+.epic-footer {
+  font-size: '0.8em';
+  font-weight: '700';
+  padding: '8px 0';
+  background-color: var(--cold-color);
+  color: 'white';
 }
