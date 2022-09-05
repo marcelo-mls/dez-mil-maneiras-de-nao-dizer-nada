@@ -1,13 +1,15 @@
 ## :brazil: 10 Mil maneiras de não dizer absolutamente nada!
-> - Projeto baseado em um meme.
-> - Crie frases que soam intelectuais, mas que não querem dizer absolutamente nada.
-> - São mais de dez mil possibilidades
+> Projeto pessoal! 
+- Projeto baseado em um meme.
+- Crie frases que soam intelectuais, mas que não querem dizer absolutamente nada.
+- São mais de dez mil possibilidades
 
 
 ## :gb: 10,000 ways to say absolutely nothing!
-> - Project based on a meme.
-> - Make phrases that sound intellectual, but actually, mean nothing.
-> - There are more than ten thousand possibilities.
+> This is a personal project! 
+- Project based on a meme.
+- Make phrases that sound intellectual, but actually, mean nothing.
+- There are more than ten thousand possibilities.
 
 <br />
 
