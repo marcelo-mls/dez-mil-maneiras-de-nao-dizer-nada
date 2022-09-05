@@ -4,7 +4,6 @@
 - Crie frases que soam intelectuais, mas que não querem dizer absolutamente nada.
 - São mais de dez mil possibilidades
 
-
 ## :gb: 10,000 ways to say absolutely nothing!
 > This is a personal project! 
 - Project based on a meme.
@@ -17,7 +16,16 @@
  ![image](./src/assets/demo-gif.gif)
 
 <br />
+<p>
+   Clique abaixo para acessar / Click below to access: :point_down:
+  <a href="https://marcelo-mls.github.io/dez-mil-maneiras-de-nao-dizer-nada/" target="_blank">
+    <h3>10 Mil maneiras de não dizer absolutamente nada!</h3>
+  </a>
+</p>
 
+<br />
+<br />
+<br />
 Aplicação baseada no meme do site
 <a href="https://www.naointendo.com.br/posts/10-mil-modo-de-nao-dizer-absolutamente-nada" target="_blank" rel="noreferrer">
  <img align="center" height="30" src="https://www.naointendo.com.br/assets/packs/nao-intendo/assets/nao-intendo-ac355798ff0ff1f2b794ff42435e9e4d.png" alt="Logo do site Ñintendo"/>
