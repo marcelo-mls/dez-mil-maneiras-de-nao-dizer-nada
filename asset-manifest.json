@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dez-mil-maneiras-de-nao-dizer-nada/static/css/main.c188ffc0.css",
+    "main.js": "/dez-mil-maneiras-de-nao-dizer-nada/static/js/main.a5ed44d6.js",
+    "static/media/company-image.jpg": "/dez-mil-maneiras-de-nao-dizer-nada/static/media/company-image.13595400c7f1d0bee9b6.jpg",
+    "index.html": "/dez-mil-maneiras-de-nao-dizer-nada/index.html",
+    "static/media/quotes-svg.svg": "/dez-mil-maneiras-de-nao-dizer-nada/static/media/quotes-svg.6918da06a9967656b250.svg",
+    "main.c188ffc0.css.map": "/dez-mil-maneiras-de-nao-dizer-nada/static/css/main.c188ffc0.css.map",
+    "main.a5ed44d6.js.map": "/dez-mil-maneiras-de-nao-dizer-nada/static/js/main.a5ed44d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c188ffc0.css",
+    "static/js/main.a5ed44d6.js"
+  ]
+}
